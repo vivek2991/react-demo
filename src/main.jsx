@@ -6,6 +6,7 @@ import Header from "./Header.jsx"
 import App2 from './App-2.jsx'
 import App3 from './App-3.jsx'
 import App4 from './App-4.jsx'
+import App5 from './App-5.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,6 +23,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App3 /> */}
 
     {/* JS Exercise */}
-    <App4 />
+    {/* <App4 /> */}
+
+    {/* JSX with Curly Braces */}
+    <App5 />
   </StrictMode>,
 )
