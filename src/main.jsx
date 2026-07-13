@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Header from "./Header.jsx"
 import App2 from './App-2.jsx'
 import App3 from './App-3.jsx'
+import App4 from './App-4.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App2 /> */}
 
     {/* JSX in react demo */}
-    <App3 />
+    {/* <App3 /> */}
+
+    {/* JS Exercise */}
+    <App4 />
   </StrictMode>,
 )
