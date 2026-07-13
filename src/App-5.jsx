@@ -2,6 +2,16 @@ function App5() {
 
   const name = "Vivek Patel"
   const name1 = ""
+  const userObj = {
+    name: "Vivek Patel VK",
+    email: "vivekpatel@gmail.com",
+    age: 34
+  }
+
+  const userArray = ['vivek', 'Vishal', 'Dipika']
+
+  let path = "https://media.licdn.com/dms/image/v2/D4D35AQEcoP5HszAU1w/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1731927699449?e=1784538000&v=beta&t=_JCPx897oSf9JbR-6poXYlZp_PEUgrCko3nLg62Nn-c"
+
   let x = 10;
   let y = 20;
 
@@ -41,7 +51,17 @@ function App5() {
       <h3>Value after Operation addition: {operation(20,10,"+")}</h3>
       <h3>Value after Operation deduction: {operation(20,10,"-")}</h3>
       <h3>Value after Operation no sign: {operation(20,10,"")}</h3>
-
+      {/* printing array  */}
+      <h2>User Object Array value Print</h2>
+      <h3>User Name: {userObj.name}</h3>
+      <h3>User email: {userObj.email}</h3>
+      <h3>User age: {userObj.age}</h3>
+       {/* printing array first value  */}
+      <h3>First Value of Array: {userArray[0]}</h3>
+      {/* pass image path dynamically which defined above */}
+      <img src={path} alt="Vivek Patel" width={150} height={150}/>
+      {/* Name value passed dynamic */} <br />
+      <input type="text" value={name}/>
 
     </div>
   );
