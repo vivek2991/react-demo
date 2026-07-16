@@ -11,6 +11,7 @@ import App6 from './App-6.jsx'
 import App7 from './App-7.jsx'
 import App8 from './App-8.jsx'
 import App9 from './App-9.jsx'
+import App10 from './App-10.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -42,6 +43,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App8 /> */}
 
     {/* Multiple Condition in React */}
-    <App9 />
+    {/* <App9 /> */}
+
+    {/* Props in React */}
+    <App10 />
   </StrictMode>,
 )
