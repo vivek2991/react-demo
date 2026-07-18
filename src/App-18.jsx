@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Student from "./student"
+import Student from "./student-18"
 import College from "./College-18"
 
 function App18() {

@@ -20,6 +20,7 @@ const College=({college})=>{
                 <h2>Website: {college.website}</h2>
               </li>
               <li>
+                {/* call student component and pass student object in parameters called props in react */}
                 <Student student={college.student} />
               </li>
             </ul>
