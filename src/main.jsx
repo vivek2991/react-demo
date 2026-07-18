@@ -18,6 +18,7 @@ import App13 from './App-13.jsx'
 import App14 from './App-14.jsx'
 import App15 from './App-15.jsx'
 import App16 from './App-16.jsx'
+import App17 from './App-17.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -69,6 +70,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App15 /> */}
 
     {/* Reuse Component in Loop */}
-    <App16 />
+    {/* <App16 /> */}
+
+    {/* Digital Clock in React JS */}
+    <App17 />
   </StrictMode>,
 )
