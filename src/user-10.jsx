@@ -13,7 +13,7 @@ function User10({ user }){
     console.log(user);
     
     return(
-        <div>
+        <div style={{color:"green", border:"5px solid green"}}>
             <h1>User Component</h1>
             <h2>User Name: {user.name}</h2>
             <h2>User Age: {user.age}</h2>
