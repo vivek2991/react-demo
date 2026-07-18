@@ -19,6 +19,7 @@ import App14 from './App-14.jsx'
 import App15 from './App-15.jsx'
 import App16 from './App-16.jsx'
 import App17 from './App-17.jsx'
+import App18 from './App-18.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -73,6 +74,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App16 /> */}
 
     {/* Digital Clock in React JS */}
-    <App17 />
+    {/* <App17 /> */}
+
+    {/* Nested Looping in React JS */}
+    <App18 />
   </StrictMode>,
 )
