@@ -14,6 +14,7 @@ import App9 from './App-9.jsx'
 import App10 from './App-10.jsx'
 import App11 from './App-11.jsx'
 import App12 from './App-12.jsx'
+import App13 from './App-13.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -53,6 +54,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App11 /> */}
 
     {/* Controlled Component in React */}
-    <App12 />
+    {/* <App12 /> */}
+
+    {/* Handle Checkbox in React */}
+    <App13 />
   </StrictMode>,
 )
