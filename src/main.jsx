@@ -12,6 +12,7 @@ import App7 from './App-7.jsx'
 import App8 from './App-8.jsx'
 import App9 from './App-9.jsx'
 import App10 from './App-10.jsx'
+import App11 from './App-11.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -46,6 +47,9 @@ createRoot(document.getElementById('root')).render(
     {/* <App9 /> */}
 
     {/* Props in React */}
-    <App10 />
+    {/* <App10 /> */}
+
+    {/* Get input field value */}
+    <App11 />
   </StrictMode>,
 )
