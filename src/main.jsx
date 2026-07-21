@@ -23,6 +23,7 @@ import App18 from './App-18.jsx'
 import App19 from './App-19.jsx'
 import App20 from './App-20.jsx'
 import App21 from './App-21.jsx'
+import App22 from './App-22.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -89,7 +90,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App20 /> */}
 
     {/* Inline Style in React JS */}
-    <App21 />
+    {/* <App21 /> */}
+
+    {/* Dynamic and Conditional Inline Style in React JS */}
+    <App22 />
     
   </StrictMode>,
 )
