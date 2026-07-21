@@ -1,0 +1,22 @@
+.heading{
+    color: blue;
+}
+
+.img{
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card{
+    width: 200px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 3px 1px #ddd;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.textwrap{
+    padding: 10px;
+    text-align: center;
+}
