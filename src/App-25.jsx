@@ -1,5 +1,7 @@
 import styled from "styled-components"
 
+// npm i styled-components - run in the command line
+
 function App25(){
 
     const Heading = styled.h1`
