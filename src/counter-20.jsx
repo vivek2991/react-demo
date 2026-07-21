@@ -24,6 +24,14 @@ const Counter = ({count, data}) => {
          handleData();
     }, [count, data])
 
+
+    useEffect(()=>{
+        return ()=>{
+            console.log("unmount face only");
+            
+        }
+    },[data])
+
     return(
         <div>
             <h2>Counter Value {count}</h2>
