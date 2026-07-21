@@ -21,6 +21,7 @@ import App16 from './App-16.jsx'
 import App17 from './App-17.jsx'
 import App18 from './App-18.jsx'
 import App19 from './App-19.jsx'
+import App20 from './App-20.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -81,7 +82,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App18 /> */}
 
     {/* Hooks in React JS */}
-    <App19 />
+    {/* <App19 /> */}
+
+    {/* Handle Props Side Effect with useEffect in Component - React JS */}
+    <App20 />
     
   </StrictMode>,
 )
