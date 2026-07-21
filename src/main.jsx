@@ -26,6 +26,7 @@ import App21 from './App-21.jsx'
 import App22 from './App-22.jsx'
 import App23 from './App-23.jsx'
 import App24 from './App-24.jsx'
+import App25 from './App-25.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -101,7 +102,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App23 /> */}
 
     {/* Style with CSS Modules in React JS */}
-    <App24 />
+    {/* <App24 /> */}
+
+    {/* Style Components in React JS */}
+    <App25 />
     
   </StrictMode>,
 )
