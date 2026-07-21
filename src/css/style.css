@@ -1,0 +1,27 @@
+.heading{
+    color: blue;
+}
+
+.img-style{
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.user-card{
+    width: 200px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 3px 1px #ddd;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.text-wrap{
+    padding: 10px;
+    text-align: center;
+}
+
+.conatiner{
+    display: flex;
+    flex-wrap: wrap;
+}
