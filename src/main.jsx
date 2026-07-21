@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+//import './index.css'
 import App from './App.jsx'
 import Header from "./Header.jsx"
 import App2 from './App-2.jsx'
@@ -22,6 +22,7 @@ import App17 from './App-17.jsx'
 import App18 from './App-18.jsx'
 import App19 from './App-19.jsx'
 import App20 from './App-20.jsx'
+import App21 from './App-21.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -85,7 +86,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App19 /> */}
 
     {/* Handle Props Side Effect with useEffect in Component - React JS */}
-    <App20 />
+    {/* <App20 /> */}
+
+    {/* Inline Style in React JS */}
+    <App21 />
     
   </StrictMode>,
 )
