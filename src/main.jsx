@@ -27,6 +27,9 @@ import App22 from './App-22.jsx'
 import App23 from './App-23.jsx'
 import App24 from './App-24.jsx'
 import App25 from './App-25.jsx'
+import App26 from './App-26.jsx'
+/* The following line can be included in your src/index.js or App.js file */
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -105,7 +108,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App24 /> */}
 
     {/* Style Components in React JS */}
-    <App25 />
+    {/* <App25 /> */}
+
+    {/* Add bootstrap in React JS */}
+    <App26 />
     
   </StrictMode>,
 )
