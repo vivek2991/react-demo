@@ -33,6 +33,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App27 from './App-27.jsx'
 import App28 from './App-28.jsx'
 import App29 from './App-29.jsx'
+import App30 from './App-30.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -123,7 +124,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App28 /> */}
 
     {/* Pass Function in Component as Props in React JS */}
-    <App29 />
+    {/* <App29 /> */}
+
+    {/* ForwardRef in React JS */}
+    <App30 />
     
   </StrictMode>,
 )
