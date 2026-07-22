@@ -156,10 +156,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App35 /> */}
 
     {/* Updating Object in State - React JS */}
-    <App36 />
+    {/* <App36 /> */}
 
-    {/* Keep your Components pure in React JS */}
-    {/* <App37 /> */}
+    {/* Updating Array in State */}
+    <App37 />
 
     {/* Keep your Components pure in React JS */}
     {/* <App38 /> */}
