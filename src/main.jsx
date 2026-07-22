@@ -36,6 +36,15 @@ import App29 from './App-29.jsx'
 import App30 from './App-30.jsx'
 import App31 from './App-31.jsx'
 import App32 from './App-32.jsx'
+import App33 from './App-33.jsx'
+import App34 from './App-34.jsx'
+import App35 from './App-35.jsx'
+import App36 from './App-36.jsx'
+import App37 from './App-37.jsx'
+import App38 from './App-38.jsx'
+import App39 from './App-39.jsx'
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -135,7 +144,28 @@ createRoot(document.getElementById('root')).render(
     {/* <App31 /> */}
 
     {/* useTransition Hook in React JS */}
-    <App32 />
+    {/* <App32 /> */}
+
+    {/* Keeping Components Pure in React JS */}
+    <App33 />
+
+    {/* Keep your Components pure in React JS */}
+    {/* <App34 /> */}
+
+    {/* Keep your Components pure in React JS */}
+    {/* <App35 /> */}
+
+    {/* Keep your Components pure in React JS */}
+    {/* <App36 /> */}
+
+    {/* Keep your Components pure in React JS */}
+    {/* <App37 /> */}
+
+    {/* Keep your Components pure in React JS */}
+    {/* <App38 /> */}
+
+    {/* Keep your Components pure in React JS */}
+    {/* <App39 /> */}
     
   </StrictMode>,
 )
