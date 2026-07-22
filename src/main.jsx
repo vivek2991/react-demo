@@ -147,10 +147,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App32 /> */}
 
     {/* Keeping Components Pure in React JS */}
-    <App33 />
+    {/* <App33 /> */}
 
-    {/* Keep your Components pure in React JS */}
-    {/* <App34 /> */}
+    {/* Derived State in React JS */}
+    <App34 />
 
     {/* Keep your Components pure in React JS */}
     {/* <App35 /> */}
