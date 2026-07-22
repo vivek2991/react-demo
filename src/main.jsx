@@ -150,10 +150,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App33 /> */}
 
     {/* Derived State in React JS */}
-    <App34 />
+    {/* <App34 /> */}
 
-    {/* Keep your Components pure in React JS */}
-    {/* <App35 /> */}
+    {/* Lifting State Up in React JS */}
+    <App35 />
 
     {/* Keep your Components pure in React JS */}
     {/* <App36 /> */}
