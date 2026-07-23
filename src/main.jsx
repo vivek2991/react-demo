@@ -54,6 +54,7 @@ import App47 from './App-47.jsx'
 import App48 from './App-48.jsx'
 import App49 from './App-49.jsx'
 import App50 from './App-50.jsx'
+import { BrowserRouter } from 'react-router'
 
 
 
@@ -188,10 +189,12 @@ createRoot(document.getElementById('root')).render(
     {/* <App42 /> */}
 
     {/* React Router 7 Setup in React JS */}
-    <App43 />
+    {/* <App43 /> */}
 
-    {/*  in React JS */}
-    {/* <App44 /> */}
+    {/*  Basic Pages with React-Router - React JS */}
+    <BrowserRouter>
+      <App44 />
+    </BrowserRouter>
 
     {/*  in React JS */}
     {/* <App45 /> */}
