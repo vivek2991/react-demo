@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-// import './index.css'
+import './index.css'
 import App from './App.jsx'
 import Header from "./Header.jsx"
 import App2 from './App-2.jsx'
@@ -185,10 +185,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App41 /> */}
 
     {/* Context API in React JS */}
-    <App42 />
+    {/* <App42 /> */}
 
-    {/*  in React JS */}
-    {/* <App43 /> */}
+    {/* React Router 7 Setup in React JS */}
+    <App43 />
 
     {/*  in React JS */}
     {/* <App44 /> */}
