@@ -1,4 +1,4 @@
-function App39() {
+function App42() {
     return (
         <div>
             <h2></h2>
@@ -6,4 +6,4 @@ function App39() {
     )
 }
 
-export default App39
+export default App42

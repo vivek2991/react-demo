@@ -43,6 +43,17 @@ import App36 from './App-36.jsx'
 import App37 from './App-37.jsx'
 import App38 from './App-38.jsx'
 import App39 from './App-39.jsx'
+import App40 from './App-40.jsx'
+import App41 from './App-41.jsx'
+import App42 from './App-42.jsx'
+import App43 from './App-43.jsx'
+import App44 from './App-44.jsx'
+import App45 from './App-45.jsx'
+import App46 from './App-46.jsx'
+import App47 from './App-47.jsx'
+import App48 from './App-48.jsx'
+import App49 from './App-49.jsx'
+import App50 from './App-50.jsx'
 
 
 
@@ -159,13 +170,46 @@ createRoot(document.getElementById('root')).render(
     {/* <App36 /> */}
 
     {/* Updating Array in State */}
-    <App37 />
+    {/* <App37 /> */}
 
-    {/* Keep your Components pure in React JS */}
-    {/* <App38 /> */}
+    {/* useActionState Hook in React JS */}
+    <App38 />
 
-    {/* Keep your Components pure in React JS */}
+    {/*  in React JS */}
     {/* <App39 /> */}
+
+    {/*  in React JS */}
+    {/* <App40 /> */}
+
+    {/*  in React JS */}
+    {/* <App41 /> */}
+
+    {/*  in React JS */}
+    {/* <App42 /> */}
+
+    {/*  in React JS */}
+    {/* <App43 /> */}
+
+    {/*  in React JS */}
+    {/* <App44 /> */}
+
+    {/*  in React JS */}
+    {/* <App45 /> */}
+
+    {/*  in React JS */}
+    {/* <App46 /> */}
+
+    {/*  in React JS */}
+    {/* <App47 /> */}
+
+    {/*  in React JS */}
+    {/* <App48 /> */}
+
+    {/*  in React JS */}
+    {/* <App49 /> */}
+
+    {/*  in React JS */}
+    {/* <App50 /> */}
     
   </StrictMode>,
 )
