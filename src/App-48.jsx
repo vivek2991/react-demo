@@ -24,6 +24,7 @@ function App48() {
                     <Route path="/login" element={<Login44 />} />
                 </Route>
 
+                {/* College Prefix before all 3 urls this way we can set prefix */}
                 <Route path="/college" element={<College47 />} >
                     <Route path="student" element={<Student47 />} />
                     <Route path="department" element={<Department47 />} />
