@@ -8,7 +8,6 @@ export default function NavBar47() {
                 <Link className="link" to="/"><h2>Logo</h2></Link>
             </div>
             <div className="header">
-                <h4>Navbar-47 demo</h4>
             </div>
             <div>
                 <ul>
