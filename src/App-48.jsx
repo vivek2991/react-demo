@@ -14,7 +14,7 @@ import UserDetail from "./UserDetails-48"
 function App48() {
     return (
         <div>
-            <h2>Layout and Index Routes | Route Prefix | Dynamic routes</h2>
+            <h2>Layout and Index Routes | Route Prefix | Dynamic routes | React Router Optional Segment </h2>
             {/* <NavBar48 /> */}
 
             {/* Hide navbar for the college page */}
@@ -24,8 +24,11 @@ function App48() {
                     <Route path="/" element={<Home44 />} />
                     <Route path="/about" element={<About44 />} />
                     <Route path="/login" element={<Login44 />} />
-                    <Route path="/users" element={<UserList />} />
-                    <Route path="/users/:id" element={<UserDetail />} />
+                    {/* <Route path="/users" element={<UserList />} /> */}
+                    {/* list in url is optional if not added /user url open the same user page  */}
+                    <Route path="/users/list?" element={<UserList />} />
+                    {/* <Route path="/users/:id" element={<UserDetail />} /> */}
+                    <Route path="/users/:id/:name?" element={<UserDetail />} />
                 </Route>
 
                 {/* College Prefix before all 3 urls this way we can set prefix */}

@@ -21,6 +21,15 @@ export default function UserList() {
                     </div>
                 ))
             }
+            <br />
+            <h2>User List with name in URL</h2>
+            {
+                userData.map((item) => (
+                    <div key={item.id}>
+                        <p><Link to={`/users/${item.id}/${item.name}`}>{item.name}</Link></p>
+                    </div>
+                ))
+            }
         </div>
     )
 }
