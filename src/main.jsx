@@ -192,12 +192,14 @@ createRoot(document.getElementById('root')).render(
     {/* <App43 /> */}
 
     {/*  Basic Pages with React-Router - React JS */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <App44 />
-    </BrowserRouter>
+    </BrowserRouter> */}
 
-    {/*  in React JS */}
-    {/* <App45 /> */}
+    {/* Header with React Router in React JS */}
+    <BrowserRouter>
+      <App45 />
+    </BrowserRouter>
 
     {/*  in React JS */}
     {/* <App46 /> */}
