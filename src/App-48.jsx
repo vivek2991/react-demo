@@ -8,11 +8,13 @@ import College47 from "./College-47"
 import Student47 from "./Student-47"
 import Department47 from "./Department-47"
 import Detail47 from "./Details-47"
+import UserList from "./User-48"
+import UserDetail from "./UserDetails-48"
 
 function App48() {
     return (
         <div>
-            <h2>Layout and Index Routes</h2>
+            <h2>Layout and Index Routes | Route Prefix | Dynamic routes</h2>
             {/* <NavBar48 /> */}
 
             {/* Hide navbar for the college page */}
@@ -22,6 +24,8 @@ function App48() {
                     <Route path="/" element={<Home44 />} />
                     <Route path="/about" element={<About44 />} />
                     <Route path="/login" element={<Login44 />} />
+                    <Route path="/users" element={<UserList />} />
+                    <Route path="/users/:id" element={<UserDetail />} />
                 </Route>
 
                 {/* College Prefix before all 3 urls this way we can set prefix */}

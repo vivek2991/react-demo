@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router";
 import './header-45.css'
 
-export default function NavBar47() {
+export default function NavBar48() {
     return (
         <div>
             <div className="header">
@@ -23,6 +23,9 @@ export default function NavBar47() {
                         </li>
                         <li>
                             <Link className="link" to="/college">College</Link>
+                        </li>
+                        <li>
+                            <Link className="link" to="/users">Users</Link>
                         </li>
                     </ul>
                 </div>
