@@ -14,7 +14,7 @@ import UserDetail from "./UserDetails-48"
 function App48() {
     return (
         <div>
-            <h2>Layout and Index Routes | Route Prefix | Dynamic routes | React Router Optional Segment </h2>
+            <h2>Layout and Index Routes | Route Prefix | Dynamic routes | React Router Optional Segment | React Router NavLink and Active Class</h2>
             {/* <NavBar48 /> */}
 
             {/* Hide navbar for the college page */}
