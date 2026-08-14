@@ -1,9 +1,9 @@
 function App49() {
     return (
-        <div>
-            <h2></h2>
-        </div>
-    )
+    <div className="bg-blue-500 text-white text-3xl font-bold p-10">
+      Tailwind is working!
+    </div>
+  );
 }
 
 export default App49

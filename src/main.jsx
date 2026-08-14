@@ -212,12 +212,12 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter> */}
 
     {/* Layout and Index Routes in React JS */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <App48 />
-    </BrowserRouter>
+    </BrowserRouter> */}
 
-    {/*  in React JS */}
-    {/* <App49 /> */}
+    {/* Test Tailwind Installation in React JS */}
+    <App49 />
 
     {/*  in React JS */}
     {/* <App50 /> */}
