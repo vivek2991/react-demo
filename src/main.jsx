@@ -202,12 +202,14 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter> */}
 
     {/*  404 Page and Redirection in React JS */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <App46 />
-    </BrowserRouter>
+    </BrowserRouter> */}
 
-    {/*  in React JS */}
-    {/* <App47 /> */}
+    {/* Nested Navigation with React Router in React JS */}
+    <BrowserRouter>
+      <App47 />
+    </BrowserRouter>
 
     {/*  in React JS */}
     {/* <App48 /> */}
