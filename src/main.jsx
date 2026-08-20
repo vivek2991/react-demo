@@ -217,10 +217,10 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter> */}
 
     {/* Test Tailwind Installation in React JS */}
-    <App49 />
+    {/* <App49 /> */}
 
-    {/*  in React JS */}
-    {/* <App50 /> */}
+    {/* API in React JS */}
+    <App50 />
     
   </StrictMode>,
 )
