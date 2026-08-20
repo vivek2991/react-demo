@@ -55,7 +55,7 @@ import App48 from './App-48.jsx'
 import App49 from './App-49.jsx'
 import App50 from './App-50.jsx'
 import { BrowserRouter } from 'react-router'
-
+import App51 from './App-51.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -220,7 +220,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App49 /> */}
 
     {/* API in React JS */}
-    <App50 />
+    {/* <App50 /> */}
+
+    {/* Integrate JSON Server API and Loader in React JS */}
+    <App51 />
     
   </StrictMode>,
 )
