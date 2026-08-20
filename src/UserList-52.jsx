@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import './App-52.css'
+import { useNavigate } from "react-router";
 
 function UserList52() {
 
     const url = "http://localhost:3000/users";
     const [userData, setUserData] = useState([]);
     const [loading, setLoading] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         setLoading(true);
@@ -29,7 +31,10 @@ function UserList52() {
             alert("User Deleted Successfully");
             getUserData();
         }
-        
+    }
+
+    const editUser = (id) => {
+        navigate("/edit/"+id);
     }
 
     return (
@@ -48,6 +53,7 @@ function UserList52() {
                             <li>{user.email}</li>
                             <li>{user.age}</li>
                             <li>
+                                <button onClick={() => editUser(user.id)}>Edit</button>
                                 <button onClick={() => deleteUser(user.id)}>Delete</button>
                             </li>
                         </ul>

@@ -2,6 +2,7 @@ import { NavLink, Route, Routes } from "react-router";
 import UserAdd52 from "./UserAdd-52";
 import UserList52 from "./UserList-52";
 import { Navbar } from "react-bootstrap";
+import UserEdit52 from "./UserEdit-52";
 
 function App52(){
     return(
@@ -23,6 +24,7 @@ function App52(){
             <Routes>
                 <Route path="/list" element={<UserList52 />} />
                 <Route path="/add" element={<UserAdd52 />} />
+                <Route path="/edit/:id" element={<UserEdit52 />} />
             </Routes>
         </div>
     )
