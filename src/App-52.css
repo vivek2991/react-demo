@@ -1,0 +1,16 @@
+.user-list {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    border: 1px solid #aaa;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    list-style: none;
+}

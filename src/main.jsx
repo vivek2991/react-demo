@@ -56,6 +56,7 @@ import App49 from './App-49.jsx'
 import App50 from './App-50.jsx'
 import { BrowserRouter } from 'react-router'
 import App51 from './App-51.jsx'
+import App52 from './App-52.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -223,7 +224,11 @@ createRoot(document.getElementById('root')).render(
     {/* <App50 /> */}
 
     {/* Integrate JSON Server API and Loader in React JS */}
-    <App51 />
-    
+    {/* <App51 /> */}
+
+     {/* Routes for User List and Add User UI in React JS */}
+    <BrowserRouter>
+      <App52 />
+    </BrowserRouter>
   </StrictMode>,
 )
