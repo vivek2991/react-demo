@@ -3,6 +3,7 @@ import './App-52.css'
 
 function UserList52() {
 
+    const url = "http://localhost:3000/users";
     const [userData, setUserData] = useState([]);
     const [loading, setLoading] = useState(false);
 
@@ -12,12 +13,23 @@ function UserList52() {
     }, [])
 
     const getUserData = async () => {
-        const url = "http://localhost:3000/users";
         let response = await fetch(url);
         response = await response.json();
         //console.log(response);
         setUserData(response);
         setLoading(false);
+    }
+
+    const deleteUser = async (id) => {
+        let response = await fetch (url+"/"+id, {
+            method: "delete"
+        });
+        response = await response.json();
+        if (response) {
+            alert("User Deleted Successfully");
+            getUserData();
+        }
+        
     }
 
     return (
@@ -26,6 +38,7 @@ function UserList52() {
                 <li className="font-bold">Name</li>
                 <li className="font-bold">Email</li>
                 <li className="font-bold">Age</li>
+                <li className="font-bold">Actions</li>
             </ul>
             {
                 !loading ?
@@ -34,6 +47,9 @@ function UserList52() {
                             <li>{user.name}</li>
                             <li>{user.email}</li>
                             <li>{user.age}</li>
+                            <li>
+                                <button onClick={() => deleteUser(user.id)}>Delete</button>
+                            </li>
                         </ul>
                     ))
                     : <h2>Loading...</h2>
