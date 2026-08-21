@@ -60,6 +60,7 @@ import App52 from './App-52.jsx'
 import App53 from './App-53.jsx'
 import App54 from './App-54.jsx'
 import App55 from './App-55.jsx'
+import App56 from './App-56.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -241,7 +242,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App54 /> */}
 
     {/* useReducer Hook in React JS */}
-    <App55 />
+    {/* <App55 /> */}
+
+    {/* Lazy Loading in React JS */}
+    <App56 />
     
   </StrictMode>,
 )
