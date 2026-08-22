@@ -61,6 +61,7 @@ import App53 from './App-53.jsx'
 import App54 from './App-54.jsx'
 import App55 from './App-55.jsx'
 import App56 from './App-56.jsx'
+import App57 from './App-57.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -245,7 +246,10 @@ createRoot(document.getElementById('root')).render(
     {/* <App55 /> */}
 
     {/* Lazy Loading in React JS */}
-    <App56 />
+    {/* <App56 /> */}
+
+    {/* 'use' API (Different from REST) in React JS */}
+    <App57 />
     
   </StrictMode>,
 )
